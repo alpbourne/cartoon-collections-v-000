@@ -5,7 +5,10 @@ def roll_call_dwarves(dwarf_names)
 end
 
 def summon_captain_planet(planeteer_calls)
-  exclaim_upcase: []
+  upcase_exclaim:[]
+  upcase_exclaim << planeteer_calls.capitalize
+  upcase_exclaim.map! {|x| x + "!"}
+  
   
 end
 
