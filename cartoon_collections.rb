@@ -8,8 +8,6 @@ def summon_captain_planet(planeteer_calls)
   upcase_exclaim:[]
   upcase_exclaim << planeteer_calls.capitalize
   upcase_exclaim.map! {|x| x + "!"}
-  
-  
 end
 
 def long_planeteer_calls# code an argument here
