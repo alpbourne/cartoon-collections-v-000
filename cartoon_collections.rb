@@ -7,6 +7,7 @@ end
 def summon_captain_planet(planeteer_calls)
   array_cap = planeteer_calls.capitalize
   array_exclam = array_cap.map! {|x| x + "!"}
+  array_exclam
 end
 
 def long_planeteer_calls# code an argument here
